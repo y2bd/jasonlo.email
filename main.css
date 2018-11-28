@@ -26,10 +26,10 @@ span, a {
 #ya {
 
     transform: scale(1);
-    transition: all 10s ease;
+    transition: transform 10s ease;
 
 }
 #ya.big {
     transform: scale(20) rotate(-78deg) translate(40px, 120px);
-    transition: all 90s ease;
+    transition: transform 90s ease;
 }
