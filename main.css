@@ -14,6 +14,7 @@ aside {
 
 span, a {
     color: royalblue;
+    background: white;
     /* color: white; */
 
     display: inline-block;
@@ -21,4 +22,14 @@ span, a {
     padding: 0 8px;
     text-decoration: none;
     word-break: break-all;
+}
+#ya {
+
+    transform: scale(1);
+    transition: all 10s ease;
+
+}
+#ya.big {
+    transform: scale(20) rotate(-78deg) translate(40px, 120px);
+    transition: all 90s ease;
 }
