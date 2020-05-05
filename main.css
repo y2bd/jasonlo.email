@@ -10,6 +10,9 @@ aside {
     font-size: 24px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
+    /* for anti-aliasing */
+    outline: 1px solid transparent;
+    -webkit-backface-visibility: hidden;
 }
 
 span, a {
